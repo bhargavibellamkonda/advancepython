@@ -1,0 +1,10 @@
+from tkinter import*
+root=Tk()
+root.geometry("200x250")
+listbox=Listbox(root)
+listbox.insert(1,"india")
+listbox.insert(1,"USA")
+listbox.insert(1,"Japan")
+listbox.insert(1,"Austrelia")
+listbox.pack( )
+mainloop()
